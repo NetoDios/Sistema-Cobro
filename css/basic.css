@@ -1,0 +1,77 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: x-large;
+  color: #fff;
+}
+.Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Container {
+  height: 70vh;
+  border-radius: 30px;
+  width: 85vw;
+}
+.AlturaVariable {
+  height: auto;
+  min-height: 70vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.Columna {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.ND {
+  display: none;
+}
+#Cuts {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.Color-Azul {
+  background-color: rgb(38, 54, 106);
+}
+.Color-Rojo {
+  background-color: rgb(179, 35, 45);
+}
+.Color-Blanco {
+  background-color: #fff;
+}
+.Color-Rosa {
+  background-color: rgb(246, 172, 195);
+}
+.Color-Coral {
+  background-color: rgb(234, 53, 108);
+}
+.Color-Amarillo {
+  background-color: rgb(255, 172, 22);
+}
+
+.Font-Azul {
+  color: rgb(38, 54, 106);
+}
+.Font-Rojo {
+  color: rgb(179, 35, 45);
+}
+.Font-Blanco {
+  color: #fff;
+}
+.Font-Rosa {
+  color: rgb(246, 172, 195);
+}
+.Font-Coral {
+  color: rgb(234, 53, 108);
+}
+.Font-Amarillo {
+  color: rgb(255, 172, 22);
+}

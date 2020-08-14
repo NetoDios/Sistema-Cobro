@@ -1,0 +1,43 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+input {
+  width: 45%;
+  height: 90%;
+  font-weight: bolder;
+  padding: 12px 25px;
+  border: 1px solid #333;
+  border-radius: 15px;
+  font-size: medium;
+  color: #333;
+}
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  outline: 0;
+
+  height: 60px;
+  width: 60%;
+
+  color: #000;
+  font-size: x-large;
+  font-weight: bold;
+}
+button:hover {
+  background-color: rgb(192, 130, 16);
+  color: white;
+}
+.CheckBox {
+  height: 30px;
+  width: 30px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+input:checked ~ .CheckBox {
+  background-color: #2196f3;
+}
