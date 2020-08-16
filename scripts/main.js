@@ -1,4 +1,4 @@
-setTimeout("GoSomewhere(5)", 120000); //120000=2min
+setTimeout("GoSomewhere(10)", 120000); //120000=2min
 
 //  Datos basicos de utilidad: Usuario, y Fecha
 const urlParams = window.location.search;
@@ -12,6 +12,7 @@ function GoSomewhere(index) {
   else if (index == 1) window.location = "Gain.html" + urlParams;
   else if (index == 2) window.location = "Spend.html" + urlParams;
   else if (index == 3) window.location = "Pay.html" + urlParams;
+  else if (index == 4) window.location = "Appointment.html" + urlParams;
   else window.location = "../index.html";
 }
 
