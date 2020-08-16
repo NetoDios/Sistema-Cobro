@@ -1,6 +1,30 @@
 @media only screen and (min-width: 100px) and (max-width: 620px) {
-    input, button{
-        width: 70%;
-        margin-bottom: 5px;
-    }
+  input,
+  button {
+    width: 70%;
+    margin-bottom: 5px;
+  }
+  .W1,
+  .W2,
+  .W3,
+  .W4,
+  .W5 {
+    width: 100%;
+  }
+  .Appoint {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .time {
+    width: 90%;
+  }
+  .Hour {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
 }

@@ -4,6 +4,7 @@
   margin: 0;
   font-size: x-large;
   color: #fff;
+  text-align: center;
 }
 .Center {
   display: flex;
@@ -21,6 +22,8 @@
   min-height: 70vh;
   margin-top: 5%;
   margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .Columna {
   display: flex;
@@ -37,7 +40,53 @@
   align-items: left;
   flex-direction: column;
 }
-
+.Hour {
+  width: 95%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.Time {
+  width: 10%;
+  height: auto;
+}
+.Appoint {
+  width: 88%;
+  height: auto;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 15px;
+}
+.Borde-Redondo {
+  border-radius: 15px;
+}
+.Margen {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.Text-Center {
+  text-align: center;
+}
+.W1 {
+  width: 100%;
+}
+.W2 {
+  width: 48%;
+}
+.W3 {
+  width: 30%;
+}
+.W4 {
+  width: 25%;
+}
+.W5 {
+  width: 20%;
+}
 .Color-Azul {
   background-color: rgb(38, 54, 106);
 }
@@ -47,8 +96,8 @@
 .Color-Blanco {
   background-color: #fff;
 }
-.Color-Rosa {
-  background-color: rgb(246, 172, 195);
+.Color-Oscureser {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .Color-Coral {
   background-color: rgb(234, 53, 108);
